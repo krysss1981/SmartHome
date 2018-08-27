@@ -1,0 +1,19 @@
+{
+    "data": {
+        "entries": [
+            {
+                "data": {
+                    "email": "krysss1981@gmail.com",
+                    "refresh_token": "1/ycyDtj3Pf3rUIPxyVgkbrDgqKObuxwpn-Jm-qxhm5e4"
+                },
+                "domain": "hangouts",
+                "entry_id": "00bf31edad084611ac805619ee241543",
+                "source": "user",
+                "title": "krysss1981@gmail.com",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

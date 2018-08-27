@@ -7,3 +7,51 @@
 2018-08-27 22:11:49 WARNING (SyncWorker_6) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:346ad208-aa56-11e8-8730-18622cb8645c: 
 2018-08-27 22:17:02 WARNING (SyncWorker_16) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:ef91ee5e-aa56-11e8-8730-18622cb8645c: 
 2018-08-27 22:22:15 WARNING (SyncWorker_12) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:aa1daf9c-aa57-11e8-8730-18622cb8645c: 
+2018-08-27 22:27:28 WARNING (SyncWorker_14) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:64a12772-aa58-11e8-8730-18622cb8645c: 
+2018-08-27 22:32:41 WARNING (SyncWorker_10) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:1f2a286e-aa59-11e8-8730-18622cb8645c: 
+2018-08-27 22:37:55 WARNING (SyncWorker_5) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:d9b3b9e8-aa59-11e8-8730-18622cb8645c: 
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076774418}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823573}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823589}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823605}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823621}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823637}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823653}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823669}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823684}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594076823697}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594085982212}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594077773825}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594077790212}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594077790225}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594077790241}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086227971}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086227987}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086228003}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086228019}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086228035}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086260743}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086260759}) on node 2
+2018-08-27 22:38:40 WARNING (Dummy-2) [openzwave] Z-Wave Notification ValueRemoved for an unknown value ({'id': 72057594086260775}) on node 2
+2018-08-27 22:38:40 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/helpers/entity_platform.py", line 336, in _async_add_entity
+    msg)
+homeassistant.exceptions.HomeAssistantError: Entity id already exists: climate.danfoss_z_thermostat_014g0013_heating_1_2. Platform zwave does not generate unique IDs
+2018-08-27 22:38:41 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/helpers/entity_platform.py", line 336, in _async_add_entity
+    msg)
+homeassistant.exceptions.HomeAssistantError: Entity id already exists: zwave.danfoss_z_thermostat_014g0013_2. Platform zwave does not generate unique IDs
+2018-08-27 22:43:08 WARNING (SyncWorker_18) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:94dda864-aa5a-11e8-8730-18622cb8645c: 
+2018-08-27 22:48:21 WARNING (SyncWorker_6) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:4f672566-aa5b-11e8-8730-18622cb8645c: 
+2018-08-27 22:53:34 WARNING (SyncWorker_11) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:09f46b28-aa5c-11e8-8730-18622cb8645c: 
+2018-08-27 22:58:48 WARNING (SyncWorker_16) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:c481530c-aa5c-11e8-8730-18622cb8645c: 
+2018-08-27 23:04:01 WARNING (SyncWorker_0) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:7f9ef98c-aa5d-11e8-8730-18622cb8645c: 
+2018-08-27 23:06:23 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2018-08-27 23:09:14 WARNING (SyncWorker_5) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:3a28db92-aa5e-11e8-8730-18622cb8645c: 
+2018-08-27 23:14:27 WARNING (SyncWorker_16) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:f4acc2bc-aa5e-11e8-8730-18622cb8645c: 
+2018-08-27 23:19:42 WARNING (SyncWorker_16) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:af3ab0da-aa5f-11e8-8730-18622cb8645c: 
+2018-08-27 23:24:55 WARNING (SyncWorker_15) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:6b036e7e-aa60-11e8-8730-18622cb8645c: 
+2018-08-27 23:26:42 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.denon_avrx4000 is taking over 10 seconds
+2018-08-27 23:30:08 WARNING (SyncWorker_15) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:5bbdb5e0-aa61-11e8-8730-18622cb8645c: 
