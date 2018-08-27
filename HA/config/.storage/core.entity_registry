@@ -1,0 +1,104 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.aeotec_zw090_zstick_gen5_eu",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_luminance",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093256754"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_relative_humidity",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093256786"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_ultraviolet",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093257138"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "binary_sensor.aeotec_zw100_multisensor_6_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093240320"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.aeotec_zw100_multisensor_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-3"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305281"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305297"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.danfoss_z_thermostat_014g0013",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-4"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "climate.danfoss_z_thermostat_014g0013_heating_1",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594110328850"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.danfoss_z_thermostat_014g0013_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-2"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "climate.danfoss_z_thermostat_014g0013_heating_1_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076774418"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

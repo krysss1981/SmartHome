@@ -1,0 +1,37 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "kilowat"
+                },
+                "id": "7e5979c3de994fa8a6f6c5ef140f4364",
+                "user_id": "82ccec5d50af4fc0914e6f07946f1b66"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "http://192.168.1.12:8123/",
+                "created_at": "2018-08-27T22:01:35.818181+00:00",
+                "id": "fc3e90539157429dbf7fa48536898b61",
+                "jwt_key": "e1a8d7866a996a35178a862b30f404b5bbe14fd04d1919326e80ac8dbb40c84ca6dd581637f539699a02e618466fcd5935787598c0802c67cb6591e1b860640a",
+                "token": "602b02bafa30c3b2993c1c1210115328ec1ed97c471dd9cc65c5db9b2c6122e66e1f816e348067cdd545219e929bfc4dada051fc2e4af72d2f6cb0bc3458c31e",
+                "user_id": "82ccec5d50af4fc0914e6f07946f1b66"
+            }
+        ],
+        "users": [
+            {
+                "id": "82ccec5d50af4fc0914e6f07946f1b66",
+                "is_active": true,
+                "is_owner": true,
+                "name": "kilowat",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}
