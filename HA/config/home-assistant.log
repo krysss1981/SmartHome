@@ -1,4 +1,0 @@
-2018-08-28 19:14:25 WARNING (MainThread) [homeassistant.components.http] Experimental auth api enabled. Please use access_token instead api_password.
-2018-08-28 19:14:50 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=13 from 2018-08-28 19:11:38.917487)
-2018-08-28 19:15:04 WARNING (MainThread) [homeassistant.setup] Setup of config is taking over 10 seconds.
-2018-08-28 19:15:47 WARNING (SyncWorker_15) [netdisco.ssdp] Found malformed XML at http://192.168.1.1:49431/dyndev/uuid:11564bd8-ab07-11e8-8730-18622cb8645c: 

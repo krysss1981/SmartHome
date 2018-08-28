@@ -4,10 +4,25 @@ services:
     container_name: home-assistant
     image: homeassistant/raspberrypi3-homeassistant
     volumes:
-      - ./config:/config
+      - ./homeassistant/config:/config
       - /etc/localtime:/etc/localtime:ro
     devices:
       - /dev/ttyACM0:/dev/ttyACM0
-    restart: always
     network_mode: host
+    privileged: true
+    restart: unless-stopped
+    ports:
+      - 0.0.0.0:8123:8123
+    depends_on:
+      - mosquitto
+
+  mosquitto:
+    build:
+      context: ./mosquitto/build
+    restart: unless-stopped
+    ports:
+      - 0.0.0.0:1883:1883
+    volumes:
+      - ./mosquitto/config/auth.conf:/etc/mosquitto/conf.d/auth.conf:ro
+      - ./mosquitto/config/users.passwd:/etc/mosquitto/users.passwd:ro
 

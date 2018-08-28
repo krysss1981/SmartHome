@@ -1,0 +1,11 @@
+HA/homeassistant/config/*.*
+!HA/homeassistant/config/www/
+!HA/homeassistant/config/automations.yaml
+!HA/homeassistant/config/configuration.yaml
+!HA/homeassistant/config/customize.yaml
+!HA/homeassistant/config/groups.yaml
+!HA/homeassistant/config/known_devices.yaml
+!HA/homeassistant/config/scripts.yaml
+!HA/homeassistant/config/secrets.yaml
+
+HA/mosquitto/config/users.passwd
