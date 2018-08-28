@@ -11,6 +11,21 @@
                 "source": "user",
                 "title": "krysss1981@gmail.com",
                 "version": 1
+            },
+            {
+                "data": {
+                    "icon": "",
+                    "latitude": 52.278549,
+                    "longitude": 21.063513,
+                    "name": "Dom",
+                    "passive": false,
+                    "radius": 100.0
+                },
+                "domain": "zone",
+                "entry_id": "1bc5983ad9d3410ab87ce458fe7f9b46",
+                "source": "user",
+                "title": "Dom",
+                "version": 1
             }
         ]
     },
