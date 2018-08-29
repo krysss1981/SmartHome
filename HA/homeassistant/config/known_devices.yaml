@@ -31,6 +31,14 @@ desktopd2qkjre:
   picture:
   track: false
 
+gearfit22b08:
+  hide_if_away: false
+  icon:
+  mac: 84:98:66:F0:2B:09
+  name: GearFit2-2B08
+  picture:
+  track: false
+
 androidf01e56250057d92d:
   name: Phone_Kasia
   hide_if_away: false
@@ -45,12 +53,4 @@ androida79e1a42e836f775:
   icon:
   mac: C0:BD:D1:98:67:3B
   picture: /local/krzysztof_icon.png
-  track: true
-
-gearfit22b08:
-  hide_if_away: false
-  icon:
-  mac: 84:98:66:F0:2B:09
-  name: GearFit2-2B08
-  picture:
   track: true

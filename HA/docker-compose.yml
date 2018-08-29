@@ -12,20 +12,32 @@ services:
     privileged: true
     restart: unless-stopped
     ports:
-      - "8123:8123"
-    depends_on:
-      - mosquitto
+      - 8123:8123
 
   portainer:
     container_name: portainer
     image: portainer/portainer:latest
     ports:
-      - "9000:9000"
+      - 9000:9000
     networks:
       - local
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer-data:/data
+
+  mosquitto:
+    container_name: mosquitto
+    build:
+      context: ./mosquitto/build
+    restart: unless-stopped
+    networks:
+      - local
+    volumes:
+      - ./mosquitto/config/auth.conf:/etc/mosquitto/conf.d/auth.conf:ro
+      - ./mosquitto/config/users.passwd:/etc/mosquitto/users.passwd:ro
+    ports:
+      - 1883:1883
+      - 9001:9001
 
 networks:
   local:
