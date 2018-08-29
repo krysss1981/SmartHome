@@ -8,24 +8,29 @@ homeassistant:
   customize: !include customize.yaml
 
 zone:
-  # This will override the default home zone
   - name: Home
     latitude: 52.278549
     longitude: 21.063513
     radius: 100
     icon: mdi:home
+  - name: Krzysztof_work
+    latitude: 52.232071
+    longitude: 20.984099
+    radius: 100
+    icon: mdi:hospital-building
 
 zwave:
   usb_path: /dev/ttyACM0
 
 device_tracker:
   - platform: nmap_tracker
-    hosts: 192.168.1.1/24
-  - platform: owntracks
+    home_interval: 10
+    hosts: 192.168.1.20-40
 
 mqtt:
-  password: mqtt_password
-
+  broker: mosquitto
+  port: 1883
+  client_id: home-assistant-1
 
 
 

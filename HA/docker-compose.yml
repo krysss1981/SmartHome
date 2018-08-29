@@ -8,21 +8,28 @@ services:
       - /etc/localtime:/etc/localtime:ro
     devices:
       - /dev/ttyACM0:/dev/ttyACM0
-    network_mode: host
+    network_mode: "host"
     privileged: true
     restart: unless-stopped
     ports:
-      - 0.0.0.0:8123:8123
+      - "8123:8123"
     depends_on:
       - mosquitto
 
-  mosquitto:
-    build:
-      context: ./mosquitto/build
-    restart: unless-stopped
+  portainer:
+    container_name: portainer
+    image: portainer/portainer:latest
     ports:
-      - 0.0.0.0:1883:1883
+      - "9000:9000"
+    networks:
+      - local
     volumes:
-      - ./mosquitto/config/auth.conf:/etc/mosquitto/conf.d/auth.conf:ro
-      - ./mosquitto/config/users.passwd:/etc/mosquitto/users.passwd:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer-data:/data
 
+networks:
+  local:
+    driver: bridge
+
+volumes:
+  portainer-data:
