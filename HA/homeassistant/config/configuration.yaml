@@ -32,6 +32,28 @@ mqtt:
   port: 1883
   client_id: home-assistant-1
 
+device_tracker:
+  - platform: owntracks
+
+cloud:
+  alexa:
+    filter:
+      exclude_entities:
+        - climate.danfoss_z_thermostat_014g0013_heating_1_2
+      include_entities:
+        - climate.danfoss_z_thermostat_014g0013_heating_1
+        - media_player.denon_avrx400
+    entity_config:
+      media_player.denon_avrx4000:
+        name: denon
+        description: Denon
+        display_category: SWITCH
+      climate.danfoss_z_thermostat_014g0013_heating_1:
+        name: thermostat
+        description: Thermostat
+        display_category: THERMOSTAT
+
+
 
 
 

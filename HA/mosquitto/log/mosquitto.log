@@ -1,0 +1,927 @@
+1535663152: mosquitto version 1.5 starting
+1535663152: Config loaded from /mqtt/config/mosquitto.conf.
+1535663152: Opening websockets listen socket on port 9001.
+1535663152: Opening ipv4 listen socket on port 1883.
+1535663152: Opening ipv6 listen socket on port 1883.
+1535663155: New connection from 192.168.1.5 on port 1883.
+1535663261: mosquitto version 1.5 starting
+1535663261: Config loaded from /mqtt/config/mosquitto.conf.
+1535663261: Opening websockets listen socket on port 9001.
+1535663261: Opening ipv4 listen socket on port 1883.
+1535663261: Opening ipv6 listen socket on port 1883.
+1535663264: New connection from 192.168.1.5 on port 1883.
+1535663264: New client connected from 192.168.1.5 as lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (c1, k120).
+1535663264: No will message specified.
+1535663264: Sending CONNACK to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (0, 0)
+1535663268: New connection from 192.168.1.12 on port 1883.
+1535663268: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535663268: No will message specified.
+1535663268: Sending CONNACK to home-assistant-1 (0, 0)
+1535663297: Received PUBLISH from home-assistant-1 (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535663305: Received PUBLISH from home-assistant-1 (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535663310: Received UNSUBSCRIBE from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663310: 	yy
+1535663310: lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx yy
+1535663312: Received SUBSCRIBE from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663312: 	yy (QoS 0)
+1535663312: lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx 0 yy
+1535663312: Sending SUBACK to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663313: Received PUBLISH from home-assistant-1 (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535663313: Sending PUBLISH to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535663328: Received PINGREQ from home-assistant-1
+1535663328: Sending PINGRESP to home-assistant-1
+1535663384: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663384: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663388: Received PINGREQ from home-assistant-1
+1535663388: Sending PINGRESP to home-assistant-1
+1535663449: Received PINGREQ from home-assistant-1
+1535663449: Sending PINGRESP to home-assistant-1
+1535663504: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663504: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663509: Received PINGREQ from home-assistant-1
+1535663509: Sending PINGRESP to home-assistant-1
+1535663598: Client home-assistant-1 has exceeded timeout, disconnecting.
+1535663598: Socket error on client home-assistant-1, disconnecting.
+1535663609: New connection from 192.168.1.12 on port 1883.
+1535663610: Socket error on client <unknown>, disconnecting.
+1535663610: New connection from 192.168.1.12 on port 1883.
+1535663610: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535663610: No will message specified.
+1535663610: Sending CONNACK to home-assistant-1 (0, 0)
+1535663624: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663624: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663670: Received PINGREQ from home-assistant-1
+1535663670: Sending PINGRESP to home-assistant-1
+1535663730: Received PINGREQ from home-assistant-1
+1535663730: Sending PINGRESP to home-assistant-1
+1535663744: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663744: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663790: Received PINGREQ from home-assistant-1
+1535663790: Sending PINGRESP to home-assistant-1
+1535663850: Received PINGREQ from home-assistant-1
+1535663850: Sending PINGRESP to home-assistant-1
+1535663864: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663864: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663910: Received PINGREQ from home-assistant-1
+1535663910: Sending PINGRESP to home-assistant-1
+1535663970: Received PINGREQ from home-assistant-1
+1535663970: Sending PINGRESP to home-assistant-1
+1535663984: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535663984: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664030: Received PINGREQ from home-assistant-1
+1535664030: Sending PINGRESP to home-assistant-1
+1535664090: Received PINGREQ from home-assistant-1
+1535664090: Sending PINGRESP to home-assistant-1
+1535664104: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664104: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664151: Received PINGREQ from home-assistant-1
+1535664151: Sending PINGRESP to home-assistant-1
+1535664211: Received PINGREQ from home-assistant-1
+1535664211: Sending PINGRESP to home-assistant-1
+1535664217: New connection from 37.47.52.95 on port 1883.
+1535664217: Socket error on client <unknown>, disconnecting.
+1535664219: New connection from 37.47.52.95 on port 1883.
+1535664219: Socket error on client <unknown>, disconnecting.
+1535664224: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664224: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664271: Received PINGREQ from home-assistant-1
+1535664271: Sending PINGRESP to home-assistant-1
+1535664281: New connection from 37.47.52.95 on port 1883.
+1535664281: Socket error on client <unknown>, disconnecting.
+1535664331: Received PINGREQ from home-assistant-1
+1535664331: Sending PINGRESP to home-assistant-1
+1535664344: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664344: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664376: New connection from 37.47.52.95 on port 1883.
+1535664376: New client connected from 37.47.52.95 as temptemp (c0, k3600).
+1535664376: Will message specified (32 bytes) (r0, q0).
+1535664376: 	owntracks/temp/temp
+1535664376: Sending CONNACK to temptemp (0, 0)
+1535664377: Received SUBSCRIBE from temptemp
+1535664377: 	owntracks/+/+ (QoS 2)
+1535664377: temptemp 2 owntracks/+/+
+1535664377: 	owntracks/+/+/info (QoS 2)
+1535664377: temptemp 2 owntracks/+/+/info
+1535664377: 	owntracks/temp/temp/cmd (QoS 2)
+1535664377: temptemp 2 owntracks/temp/temp/cmd
+1535664377: 	owntracks/+/+/event (QoS 2)
+1535664377: temptemp 2 owntracks/+/+/event
+1535664377: 	owntracks/+/+/waypoint (QoS 2)
+1535664377: temptemp 2 owntracks/+/+/waypoint
+1535664377: Sending SUBACK to temptemp
+1535664377: Received PUBLISH from temptemp (d0, q1, r1, m2, 'owntracks/temp/temp', ... (107 bytes))
+1535664377: Sending PUBACK to temptemp (Mid: 2)
+1535664377: Sending PUBLISH to temptemp (d0, q1, r0, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535664377: Received PUBLISH from temptemp (d0, q1, r1, m3, 'owntracks/temp/temp', ... (107 bytes))
+1535664377: Sending PUBACK to temptemp (Mid: 3)
+1535664377: Sending PUBLISH to temptemp (d0, q1, r0, m2, 'owntracks/temp/temp', ... (107 bytes))
+1535664377: Received PUBACK from temptemp (Mid: 1)
+1535664377: Received PUBACK from temptemp (Mid: 2)
+1535664380: Received PUBLISH from temptemp (d0, q1, r1, m4, 'owntracks/temp/temp', ... (107 bytes))
+1535664380: Sending PUBACK to temptemp (Mid: 4)
+1535664380: Sending PUBLISH to temptemp (d0, q1, r0, m3, 'owntracks/temp/temp', ... (107 bytes))
+1535664380: Received PUBACK from temptemp (Mid: 3)
+1535664391: Received PINGREQ from home-assistant-1
+1535664391: Sending PINGRESP to home-assistant-1
+1535664436: Received DISCONNECT from temptemp
+1535664436: Client temptemp disconnected.
+1535664436: New connection from 37.47.52.95 on port 1883.
+1535664436: New client connected from 37.47.52.95 as adminkrzysztof (c0, k3600).
+1535664436: Will message specified (32 bytes) (r0, q0).
+1535664436: 	owntracks/admin/Krzysztof
+1535664436: Sending CONNACK to adminkrzysztof (0, 0)
+1535664436: Received SUBSCRIBE from adminkrzysztof
+1535664436: 	owntracks/+/+ (QoS 2)
+1535664436: adminkrzysztof 2 owntracks/+/+
+1535664436: 	owntracks/+/+/info (QoS 2)
+1535664436: adminkrzysztof 2 owntracks/+/+/info
+1535664436: 	owntracks/admin/Krzysztof/cmd (QoS 2)
+1535664436: adminkrzysztof 2 owntracks/admin/Krzysztof/cmd
+1535664436: 	owntracks/+/+/event (QoS 2)
+1535664436: adminkrzysztof 2 owntracks/+/+/event
+1535664436: 	owntracks/+/+/waypoint (QoS 2)
+1535664436: adminkrzysztof 2 owntracks/+/+/waypoint
+1535664436: Sending SUBACK to adminkrzysztof
+1535664436: Sending PUBLISH to adminkrzysztof (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535664436: Received PUBACK from adminkrzysztof (Mid: 1)
+1535664440: Received PUBLISH from adminkrzysztof (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664440: Sending PUBACK to adminkrzysztof (Mid: 2)
+1535664440: Sending PUBLISH to adminkrzysztof (d0, q1, r0, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664441: Received PUBACK from adminkrzysztof (Mid: 2)
+1535664451: Received PINGREQ from home-assistant-1
+1535664451: Sending PINGRESP to home-assistant-1
+1535664464: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664464: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664470: Received PUBLISH from adminkrzysztof (d0, q1, r1, m3, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664470: Sending PUBACK to adminkrzysztof (Mid: 3)
+1535664470: Sending PUBLISH to adminkrzysztof (d0, q1, r0, m3, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664470: Received PUBACK from adminkrzysztof (Mid: 3)
+1535664502: Received PUBLISH from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (24 bytes))
+1535664502: Sending PUBLISH to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (24 bytes))
+1535664507: Received PUBLISH from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (24 bytes))
+1535664507: Sending PUBLISH to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (24 bytes))
+1535664511: Received PINGREQ from home-assistant-1
+1535664511: Sending PINGRESP to home-assistant-1
+1535664518: Received PUBLISH from home-assistant-1 (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535664518: Sending PUBLISH to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (d0, q0, r0, m0, 'yy', ... (11 bytes))
+1535664572: Received PINGREQ from home-assistant-1
+1535664572: Sending PINGRESP to home-assistant-1
+1535664584: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664584: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664595: Received PUBLISH from adminkrzysztof (d0, q1, r1, m4, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664595: Sending PUBACK to adminkrzysztof (Mid: 4)
+1535664595: Sending PUBLISH to adminkrzysztof (d0, q1, r0, m4, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664596: Received PUBACK from adminkrzysztof (Mid: 4)
+1535664632: Received PINGREQ from home-assistant-1
+1535664632: Sending PINGRESP to home-assistant-1
+1535664692: Received PINGREQ from home-assistant-1
+1535664692: Sending PINGRESP to home-assistant-1
+1535664700: Received DISCONNECT from home-assistant-1
+1535664700: Client home-assistant-1 disconnected.
+1535664704: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664704: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664721: New connection from 192.168.1.12 on port 1883.
+1535664722: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535664722: No will message specified.
+1535664722: Sending CONNACK to home-assistant-1 (0, 0)
+1535664740: Received SUBSCRIBE from home-assistant-1
+1535664740: 	owntracks/# (QoS 1)
+1535664740: home-assistant-1 1 owntracks/#
+1535664740: Sending SUBACK to home-assistant-1
+1535664740: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535664740: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664740: Received PUBACK from home-assistant-1 (Mid: 1)
+1535664740: Received PUBACK from home-assistant-1 (Mid: 2)
+1535664779: Received DISCONNECT from adminkrzysztof
+1535664779: Client adminkrzysztof disconnected.
+1535664779: New connection from 37.47.52.95 on port 1883.
+1535664779: New client connected from 37.47.52.95 as adminkrzysztof (c0, k3600).
+1535664779: Will message specified (32 bytes) (r0, q0).
+1535664779: 	owntracks/admin/Krzysztof
+1535664779: Sending CONNACK to adminkrzysztof (0, 0)
+1535664780: Received SUBSCRIBE from adminkrzysztof
+1535664780: 	owntracks/+/+ (QoS 2)
+1535664780: adminkrzysztof 2 owntracks/+/+
+1535664780: 	owntracks/+/+/info (QoS 2)
+1535664780: adminkrzysztof 2 owntracks/+/+/info
+1535664780: 	owntracks/admin/Krzysztof/cmd (QoS 2)
+1535664780: adminkrzysztof 2 owntracks/admin/Krzysztof/cmd
+1535664780: 	owntracks/+/+/event (QoS 2)
+1535664780: adminkrzysztof 2 owntracks/+/+/event
+1535664780: 	owntracks/+/+/waypoint (QoS 2)
+1535664780: adminkrzysztof 2 owntracks/+/+/waypoint
+1535664780: Sending SUBACK to adminkrzysztof
+1535664780: Sending PUBLISH to adminkrzysztof (d0, q1, r1, m5, 'owntracks/temp/temp', ... (107 bytes))
+1535664780: Sending PUBLISH to adminkrzysztof (d0, q1, r1, m6, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664780: Received PUBACK from adminkrzysztof (Mid: 5)
+1535664780: Received PUBACK from adminkrzysztof (Mid: 6)
+1535664785: Received PUBLISH from adminkrzysztof (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664785: Sending PUBACK to adminkrzysztof (Mid: 2)
+1535664785: Sending PUBLISH to home-assistant-1 (d0, q1, r0, m3, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664785: Sending PUBLISH to adminkrzysztof (d0, q1, r0, m7, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664785: Received PUBACK from home-assistant-1 (Mid: 3)
+1535664785: Received PUBACK from adminkrzysztof (Mid: 7)
+1535664824: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664824: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664845: Received PINGREQ from home-assistant-1
+1535664845: Sending PINGRESP to home-assistant-1
+1535664846: Received DISCONNECT from adminkrzysztof
+1535664846: Client adminkrzysztof disconnected.
+1535664846: New connection from 37.47.52.95 on port 1883.
+1535664846: New client connected from 37.47.52.95 as krzysztofowntrackskrzysztof (c0, k3600).
+1535664846: Will message specified (32 bytes) (r0, q0).
+1535664846: 	owntracks/Krzysztof-owntracks/Krzysztof
+1535664846: Sending CONNACK to krzysztofowntrackskrzysztof (0, 0)
+1535664846: Received SUBSCRIBE from krzysztofowntrackskrzysztof
+1535664846: 	owntracks/+/+ (QoS 2)
+1535664846: krzysztofowntrackskrzysztof 2 owntracks/+/+
+1535664846: 	owntracks/+/+/info (QoS 2)
+1535664846: krzysztofowntrackskrzysztof 2 owntracks/+/+/info
+1535664846: 	owntracks/Krzysztof-owntracks/Krzysztof/cmd (QoS 2)
+1535664846: krzysztofowntrackskrzysztof 2 owntracks/Krzysztof-owntracks/Krzysztof/cmd
+1535664846: 	owntracks/+/+/event (QoS 2)
+1535664846: krzysztofowntrackskrzysztof 2 owntracks/+/+/event
+1535664846: 	owntracks/+/+/waypoint (QoS 2)
+1535664846: krzysztofowntrackskrzysztof 2 owntracks/+/+/waypoint
+1535664846: Sending SUBACK to krzysztofowntrackskrzysztof
+1535664846: Sending PUBLISH to krzysztofowntrackskrzysztof (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535664846: Sending PUBLISH to krzysztofowntrackskrzysztof (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664846: Received PUBACK from krzysztofowntrackskrzysztof (Mid: 1)
+1535664846: Received PUBACK from krzysztofowntrackskrzysztof (Mid: 2)
+1535664848: Received PUBLISH from krzysztofowntrackskrzysztof (d0, q1, r1, m2, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535664848: Sending PUBACK to krzysztofowntrackskrzysztof (Mid: 2)
+1535664848: Sending PUBLISH to home-assistant-1 (d0, q1, r0, m4, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535664848: Sending PUBLISH to krzysztofowntrackskrzysztof (d0, q1, r0, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535664848: Received PUBACK from home-assistant-1 (Mid: 4)
+1535664849: Received PUBACK from krzysztofowntrackskrzysztof (Mid: 3)
+1535664887: Received DISCONNECT from home-assistant-1
+1535664887: Client home-assistant-1 disconnected.
+1535664905: New connection from 192.168.1.12 on port 1883.
+1535664905: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535664905: No will message specified.
+1535664905: Sending CONNACK to home-assistant-1 (0, 0)
+1535664923: Received SUBSCRIBE from home-assistant-1
+1535664923: 	owntracks/# (QoS 1)
+1535664923: home-assistant-1 1 owntracks/#
+1535664923: Sending SUBACK to home-assistant-1
+1535664923: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535664923: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535664923: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535664923: Received PUBACK from home-assistant-1 (Mid: 1)
+1535664923: Received PUBACK from home-assistant-1 (Mid: 2)
+1535664923: Received PUBACK from home-assistant-1 (Mid: 3)
+1535664944: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664944: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535664983: Received PINGREQ from home-assistant-1
+1535664983: Sending PINGRESP to home-assistant-1
+1535665036: Received DISCONNECT from krzysztofowntrackskrzysztof
+1535665036: Client krzysztofowntrackskrzysztof disconnected.
+1535665037: New connection from 37.47.52.95 on port 1883.
+1535665037: New client connected from 37.47.52.95 as krzysztofowntracksnote4 (c0, k3600).
+1535665037: Will message specified (32 bytes) (r0, q0).
+1535665037: 	owntracks/Krzysztof-owntracks/Note4
+1535665037: Sending CONNACK to krzysztofowntracksnote4 (0, 0)
+1535665037: Received SUBSCRIBE from krzysztofowntracksnote4
+1535665037: 	owntracks/+/+ (QoS 2)
+1535665037: krzysztofowntracksnote4 2 owntracks/+/+
+1535665037: 	owntracks/+/+/info (QoS 2)
+1535665037: krzysztofowntracksnote4 2 owntracks/+/+/info
+1535665037: 	owntracks/Krzysztof-owntracks/Note4/cmd (QoS 2)
+1535665037: krzysztofowntracksnote4 2 owntracks/Krzysztof-owntracks/Note4/cmd
+1535665037: 	owntracks/+/+/event (QoS 2)
+1535665037: krzysztofowntracksnote4 2 owntracks/+/+/event
+1535665037: 	owntracks/+/+/waypoint (QoS 2)
+1535665037: krzysztofowntracksnote4 2 owntracks/+/+/waypoint
+1535665037: Sending SUBACK to krzysztofowntracksnote4
+1535665037: Sending PUBLISH to krzysztofowntracksnote4 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535665037: Sending PUBLISH to krzysztofowntracksnote4 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535665037: Sending PUBLISH to krzysztofowntracksnote4 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535665037: Received PUBACK from krzysztofowntracksnote4 (Mid: 1)
+1535665037: Received PUBACK from krzysztofowntracksnote4 (Mid: 2)
+1535665037: Received PUBACK from krzysztofowntracksnote4 (Mid: 3)
+1535665039: Received PUBLISH from krzysztofowntracksnote4 (d0, q1, r1, m2, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535665039: Sending PUBACK to krzysztofowntracksnote4 (Mid: 2)
+1535665039: Sending PUBLISH to home-assistant-1 (d0, q1, r0, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535665039: Sending PUBLISH to krzysztofowntracksnote4 (d0, q1, r0, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535665039: Received PUBACK from home-assistant-1 (Mid: 4)
+1535665040: Received PUBACK from krzysztofowntracksnote4 (Mid: 4)
+1535665061: Saving in-memory database to /mqtt/data/mosquitto.db.
+1535665061: Error saving in-memory database, unable to open /mqtt/data/mosquitto.db.new for writing.
+1535665061: Error: Permission denied.
+1535665064: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665064: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665074: Received DISCONNECT from home-assistant-1
+1535665074: Client home-assistant-1 disconnected.
+1535665093: New connection from 192.168.1.12 on port 1883.
+1535665093: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535665093: No will message specified.
+1535665093: Sending CONNACK to home-assistant-1 (0, 0)
+1535665111: Received SUBSCRIBE from home-assistant-1
+1535665111: 	owntracks/# (QoS 1)
+1535665111: home-assistant-1 1 owntracks/#
+1535665111: Sending SUBACK to home-assistant-1
+1535665111: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535665111: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535665111: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535665111: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535665111: Received PUBACK from home-assistant-1 (Mid: 1)
+1535665111: Received PUBACK from home-assistant-1 (Mid: 2)
+1535665111: Received PUBACK from home-assistant-1 (Mid: 3)
+1535665111: Received PUBACK from home-assistant-1 (Mid: 4)
+1535665171: Received PINGREQ from home-assistant-1
+1535665171: Sending PINGRESP to home-assistant-1
+1535665184: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665184: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665231: Received PINGREQ from home-assistant-1
+1535665231: Sending PINGRESP to home-assistant-1
+1535665291: Received PINGREQ from home-assistant-1
+1535665291: Sending PINGRESP to home-assistant-1
+1535665304: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665304: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665351: Received PINGREQ from home-assistant-1
+1535665351: Sending PINGRESP to home-assistant-1
+1535665411: Received PINGREQ from home-assistant-1
+1535665411: Sending PINGRESP to home-assistant-1
+1535665424: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665424: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665471: Received PINGREQ from home-assistant-1
+1535665471: Sending PINGRESP to home-assistant-1
+1535665531: Received PINGREQ from home-assistant-1
+1535665531: Sending PINGRESP to home-assistant-1
+1535665544: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665544: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665591: Received PINGREQ from home-assistant-1
+1535665591: Sending PINGRESP to home-assistant-1
+1535665652: Received PINGREQ from home-assistant-1
+1535665652: Sending PINGRESP to home-assistant-1
+1535665664: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665664: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665712: Received PINGREQ from home-assistant-1
+1535665712: Sending PINGRESP to home-assistant-1
+1535665772: Received PINGREQ from home-assistant-1
+1535665772: Sending PINGRESP to home-assistant-1
+1535665784: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665784: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665832: Received PINGREQ from home-assistant-1
+1535665832: Sending PINGRESP to home-assistant-1
+1535665892: Received PINGREQ from home-assistant-1
+1535665892: Sending PINGRESP to home-assistant-1
+1535665904: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665904: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535665952: Received PINGREQ from home-assistant-1
+1535665952: Sending PINGRESP to home-assistant-1
+1535666012: Received PINGREQ from home-assistant-1
+1535666012: Sending PINGRESP to home-assistant-1
+1535666024: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666024: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666072: Received PINGREQ from home-assistant-1
+1535666072: Sending PINGRESP to home-assistant-1
+1535666132: Received PINGREQ from home-assistant-1
+1535666132: Sending PINGRESP to home-assistant-1
+1535666144: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666144: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666192: Received PINGREQ from home-assistant-1
+1535666192: Sending PINGRESP to home-assistant-1
+1535666253: Received PINGREQ from home-assistant-1
+1535666253: Sending PINGRESP to home-assistant-1
+1535666264: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666264: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666313: Received PINGREQ from home-assistant-1
+1535666313: Sending PINGRESP to home-assistant-1
+1535666373: Received PINGREQ from home-assistant-1
+1535666373: Sending PINGRESP to home-assistant-1
+1535666384: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666384: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666433: Received PINGREQ from home-assistant-1
+1535666433: Sending PINGRESP to home-assistant-1
+1535666493: Received PINGREQ from home-assistant-1
+1535666493: Sending PINGRESP to home-assistant-1
+1535666504: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666504: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666553: Received PINGREQ from home-assistant-1
+1535666553: Sending PINGRESP to home-assistant-1
+1535666613: Received PINGREQ from home-assistant-1
+1535666613: Sending PINGRESP to home-assistant-1
+1535666624: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666624: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666673: Received PINGREQ from home-assistant-1
+1535666673: Sending PINGRESP to home-assistant-1
+1535666733: Received PINGREQ from home-assistant-1
+1535666733: Sending PINGRESP to home-assistant-1
+1535666744: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666744: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666793: Received PINGREQ from home-assistant-1
+1535666793: Sending PINGRESP to home-assistant-1
+1535666853: Received PINGREQ from home-assistant-1
+1535666853: Sending PINGRESP to home-assistant-1
+1535666862: Saving in-memory database to /mqtt/data/mosquitto.db.
+1535666862: Error saving in-memory database, unable to open /mqtt/data/mosquitto.db.new for writing.
+1535666862: Error: Permission denied.
+1535666864: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666864: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666913: Received PINGREQ from home-assistant-1
+1535666913: Sending PINGRESP to home-assistant-1
+1535666974: Received PINGREQ from home-assistant-1
+1535666974: Sending PINGRESP to home-assistant-1
+1535666984: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535666984: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667034: Received PINGREQ from home-assistant-1
+1535667034: Sending PINGRESP to home-assistant-1
+1535667094: Received PINGREQ from home-assistant-1
+1535667094: Sending PINGRESP to home-assistant-1
+1535667104: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667104: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667154: Received PINGREQ from home-assistant-1
+1535667154: Sending PINGRESP to home-assistant-1
+1535667214: Received PINGREQ from home-assistant-1
+1535667214: Sending PINGRESP to home-assistant-1
+1535667224: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667224: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667274: Received PINGREQ from home-assistant-1
+1535667274: Sending PINGRESP to home-assistant-1
+1535667334: Received PINGREQ from home-assistant-1
+1535667334: Sending PINGRESP to home-assistant-1
+1535667344: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667344: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667394: Received PINGREQ from home-assistant-1
+1535667394: Sending PINGRESP to home-assistant-1
+1535667454: Received PINGREQ from home-assistant-1
+1535667454: Sending PINGRESP to home-assistant-1
+1535667464: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667464: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667514: Received PINGREQ from home-assistant-1
+1535667514: Sending PINGRESP to home-assistant-1
+1535667574: Received PINGREQ from home-assistant-1
+1535667574: Sending PINGRESP to home-assistant-1
+1535667584: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667584: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667635: Received PINGREQ from home-assistant-1
+1535667635: Sending PINGRESP to home-assistant-1
+1535667695: Received PINGREQ from home-assistant-1
+1535667695: Sending PINGRESP to home-assistant-1
+1535667704: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667704: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667755: Received PINGREQ from home-assistant-1
+1535667755: Sending PINGRESP to home-assistant-1
+1535667815: Received PINGREQ from home-assistant-1
+1535667815: Sending PINGRESP to home-assistant-1
+1535667824: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667824: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667875: Received PINGREQ from home-assistant-1
+1535667875: Sending PINGRESP to home-assistant-1
+1535667935: Received PINGREQ from home-assistant-1
+1535667935: Sending PINGRESP to home-assistant-1
+1535667944: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667944: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535667995: Received PINGREQ from home-assistant-1
+1535667995: Sending PINGRESP to home-assistant-1
+1535668055: Received PINGREQ from home-assistant-1
+1535668055: Sending PINGRESP to home-assistant-1
+1535668064: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668064: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668115: Received PINGREQ from home-assistant-1
+1535668115: Sending PINGRESP to home-assistant-1
+1535668174: Received DISCONNECT from home-assistant-1
+1535668174: Client home-assistant-1 disconnected.
+1535668184: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668184: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668194: New connection from 192.168.1.12 on port 1883.
+1535668194: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535668194: No will message specified.
+1535668194: Sending CONNACK to home-assistant-1 (0, 0)
+1535668211: Received SUBSCRIBE from home-assistant-1
+1535668211: 	owntracks/# (QoS 1)
+1535668211: home-assistant-1 1 owntracks/#
+1535668211: Sending SUBACK to home-assistant-1
+1535668211: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535668211: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535668211: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535668211: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535668211: Received PUBACK from home-assistant-1 (Mid: 1)
+1535668211: Received PUBACK from home-assistant-1 (Mid: 2)
+1535668211: Received PUBACK from home-assistant-1 (Mid: 3)
+1535668211: Received PUBACK from home-assistant-1 (Mid: 4)
+1535668271: Received PINGREQ from home-assistant-1
+1535668271: Sending PINGRESP to home-assistant-1
+1535668304: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668304: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668331: Received PINGREQ from home-assistant-1
+1535668331: Sending PINGRESP to home-assistant-1
+1535668391: Received PINGREQ from home-assistant-1
+1535668391: Sending PINGRESP to home-assistant-1
+1535668424: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668424: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668451: Received PINGREQ from home-assistant-1
+1535668451: Sending PINGRESP to home-assistant-1
+1535668511: Received PINGREQ from home-assistant-1
+1535668511: Sending PINGRESP to home-assistant-1
+1535668544: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668544: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668571: Received PINGREQ from home-assistant-1
+1535668571: Sending PINGRESP to home-assistant-1
+1535668631: Received PINGREQ from home-assistant-1
+1535668631: Sending PINGRESP to home-assistant-1
+1535668663: Saving in-memory database to /mqtt/data/mosquitto.db.
+1535668663: Error saving in-memory database, unable to open /mqtt/data/mosquitto.db.new for writing.
+1535668663: Error: Permission denied.
+1535668664: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668664: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668691: Received PINGREQ from home-assistant-1
+1535668691: Sending PINGRESP to home-assistant-1
+1535668751: Received PINGREQ from home-assistant-1
+1535668751: Sending PINGRESP to home-assistant-1
+1535668784: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668784: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668811: Received PINGREQ from home-assistant-1
+1535668811: Sending PINGRESP to home-assistant-1
+1535668872: Received PINGREQ from home-assistant-1
+1535668872: Sending PINGRESP to home-assistant-1
+1535668904: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668904: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535668919: Received DISCONNECT from home-assistant-1
+1535668919: Client home-assistant-1 disconnected.
+1535669024: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669024: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669144: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669144: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669157: New connection from 192.168.1.12 on port 1883.
+1535669157: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535669157: No will message specified.
+1535669157: Sending CONNACK to home-assistant-1 (0, 0)
+1535669174: Received SUBSCRIBE from home-assistant-1
+1535669174: 	owntracks/# (QoS 1)
+1535669174: home-assistant-1 1 owntracks/#
+1535669174: Sending SUBACK to home-assistant-1
+1535669174: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535669174: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535669174: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535669174: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535669174: Received PUBACK from home-assistant-1 (Mid: 1)
+1535669175: Received PUBACK from home-assistant-1 (Mid: 2)
+1535669175: Received PUBACK from home-assistant-1 (Mid: 3)
+1535669175: Received PUBACK from home-assistant-1 (Mid: 4)
+1535669235: Received PINGREQ from home-assistant-1
+1535669235: Sending PINGRESP to home-assistant-1
+1535669264: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669264: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669295: Received PINGREQ from home-assistant-1
+1535669295: Sending PINGRESP to home-assistant-1
+1535669355: Received PINGREQ from home-assistant-1
+1535669355: Sending PINGRESP to home-assistant-1
+1535669384: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669384: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669415: Received PINGREQ from home-assistant-1
+1535669415: Sending PINGRESP to home-assistant-1
+1535669475: Received PINGREQ from home-assistant-1
+1535669475: Sending PINGRESP to home-assistant-1
+1535669504: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669504: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669535: Received PINGREQ from home-assistant-1
+1535669535: Sending PINGRESP to home-assistant-1
+1535669574: Received DISCONNECT from home-assistant-1
+1535669574: Client home-assistant-1 disconnected.
+1535669594: New connection from 192.168.1.12 on port 1883.
+1535669594: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535669594: No will message specified.
+1535669594: Sending CONNACK to home-assistant-1 (0, 0)
+1535669612: Received SUBSCRIBE from home-assistant-1
+1535669612: 	owntracks/# (QoS 1)
+1535669612: home-assistant-1 1 owntracks/#
+1535669612: Sending SUBACK to home-assistant-1
+1535669612: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535669612: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535669612: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535669612: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535669612: Received PUBACK from home-assistant-1 (Mid: 1)
+1535669612: Received PUBACK from home-assistant-1 (Mid: 2)
+1535669612: Received PUBACK from home-assistant-1 (Mid: 3)
+1535669612: Received PUBACK from home-assistant-1 (Mid: 4)
+1535669624: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669624: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669672: Received PINGREQ from home-assistant-1
+1535669672: Sending PINGRESP to home-assistant-1
+1535669732: Received PINGREQ from home-assistant-1
+1535669732: Sending PINGRESP to home-assistant-1
+1535669744: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669744: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669780: Received DISCONNECT from home-assistant-1
+1535669780: Client home-assistant-1 disconnected.
+1535669799: New connection from 192.168.1.12 on port 1883.
+1535669799: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535669799: No will message specified.
+1535669799: Sending CONNACK to home-assistant-1 (0, 0)
+1535669816: Received SUBSCRIBE from home-assistant-1
+1535669816: 	owntracks/# (QoS 1)
+1535669816: home-assistant-1 1 owntracks/#
+1535669816: Sending SUBACK to home-assistant-1
+1535669816: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m1, 'owntracks/temp/temp', ... (107 bytes))
+1535669816: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m2, 'owntracks/admin/Krzysztof', ... (108 bytes))
+1535669816: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m3, 'owntracks/Krzysztof-owntracks/Krzysztof', ... (108 bytes))
+1535669816: Sending PUBLISH to home-assistant-1 (d0, q1, r1, m4, 'owntracks/Krzysztof-owntracks/Note4', ... (108 bytes))
+1535669816: Received PUBACK from home-assistant-1 (Mid: 1)
+1535669817: Received PUBACK from home-assistant-1 (Mid: 2)
+1535669817: Received PUBACK from home-assistant-1 (Mid: 3)
+1535669817: Received PUBACK from home-assistant-1 (Mid: 4)
+1535669864: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669864: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669877: Received PINGREQ from home-assistant-1
+1535669877: Sending PINGRESP to home-assistant-1
+1535669937: Received PINGREQ from home-assistant-1
+1535669937: Sending PINGRESP to home-assistant-1
+1535669984: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669984: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535669997: Received PINGREQ from home-assistant-1
+1535669997: Sending PINGRESP to home-assistant-1
+1535670057: Received PINGREQ from home-assistant-1
+1535670057: Sending PINGRESP to home-assistant-1
+1535670104: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670104: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670117: Received PINGREQ from home-assistant-1
+1535670117: Sending PINGRESP to home-assistant-1
+1535670177: Received PINGREQ from home-assistant-1
+1535670281: mosquitto version 1.5 starting
+1535670281: Config loaded from /mqtt/config/mosquitto.conf.
+1535670281: Opening websockets listen socket on port 9001.
+1535670281: Opening ipv4 listen socket on port 1883.
+1535670281: Opening ipv6 listen socket on port 1883.
+1535670291: New connection from 192.168.1.5 on port 1883.
+1535670291: New client connected from 192.168.1.5 as lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (c1, k120).
+1535670291: No will message specified.
+1535670291: Sending CONNACK to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx (0, 0)
+1535670292: New connection from 192.168.1.12 on port 1883.
+1535670292: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535670292: No will message specified.
+1535670292: Sending CONNACK to home-assistant-1 (0, 0)
+1535670310: Received SUBSCRIBE from home-assistant-1
+1535670313: 	owntracks/# (QoS 1)
+1535670313: home-assistant-1 1 owntracks/#
+1535670313: Sending SUBACK to home-assistant-1
+1535670371: Received PINGREQ from home-assistant-1
+1535670371: Sending PINGRESP to home-assistant-1
+1535670411: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670411: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670431: Received PINGREQ from home-assistant-1
+1535670431: Sending PINGRESP to home-assistant-1
+1535670491: Received PINGREQ from home-assistant-1
+1535670491: Sending PINGRESP to home-assistant-1
+1535670531: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670531: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670551: Received PINGREQ from home-assistant-1
+1535670551: Sending PINGRESP to home-assistant-1
+1535670611: Received PINGREQ from home-assistant-1
+1535670611: Sending PINGRESP to home-assistant-1
+1535670651: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670651: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670671: Received PINGREQ from home-assistant-1
+1535670671: Sending PINGRESP to home-assistant-1
+1535670731: Received PINGREQ from home-assistant-1
+1535670731: Sending PINGRESP to home-assistant-1
+1535670771: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670771: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670791: Received PINGREQ from home-assistant-1
+1535670791: Sending PINGRESP to home-assistant-1
+1535670851: Received PINGREQ from home-assistant-1
+1535670851: Sending PINGRESP to home-assistant-1
+1535670891: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670891: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535670911: Received PINGREQ from home-assistant-1
+1535670911: Sending PINGRESP to home-assistant-1
+1535670972: Received PINGREQ from home-assistant-1
+1535670972: Sending PINGRESP to home-assistant-1
+1535671011: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671011: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671032: Received PINGREQ from home-assistant-1
+1535671032: Sending PINGRESP to home-assistant-1
+1535671092: Received PINGREQ from home-assistant-1
+1535671092: Sending PINGRESP to home-assistant-1
+1535671131: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671131: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671152: Received PINGREQ from home-assistant-1
+1535671152: Sending PINGRESP to home-assistant-1
+1535671212: Received PINGREQ from home-assistant-1
+1535671212: Sending PINGRESP to home-assistant-1
+1535671251: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671251: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671272: Received PINGREQ from home-assistant-1
+1535671272: Sending PINGRESP to home-assistant-1
+1535671332: Received PINGREQ from home-assistant-1
+1535671332: Sending PINGRESP to home-assistant-1
+1535671371: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671371: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671392: Received PINGREQ from home-assistant-1
+1535671392: Sending PINGRESP to home-assistant-1
+1535671448: Received DISCONNECT from home-assistant-1
+1535671448: Client home-assistant-1 disconnected.
+1535671491: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671491: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671581: New connection from 192.168.1.12 on port 1883.
+1535671581: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535671581: No will message specified.
+1535671581: Sending CONNACK to home-assistant-1 (0, 0)
+1535671600: Received SUBSCRIBE from home-assistant-1
+1535671600: 	owntracks/# (QoS 1)
+1535671600: home-assistant-1 1 owntracks/#
+1535671600: Sending SUBACK to home-assistant-1
+1535671611: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671611: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671660: Received PINGREQ from home-assistant-1
+1535671660: Sending PINGRESP to home-assistant-1
+1535671720: Received PINGREQ from home-assistant-1
+1535671720: Sending PINGRESP to home-assistant-1
+1535671731: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671731: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671780: Received PINGREQ from home-assistant-1
+1535671780: Sending PINGRESP to home-assistant-1
+1535671807: Received DISCONNECT from home-assistant-1
+1535671807: Client home-assistant-1 disconnected.
+1535671831: New connection from 192.168.1.12 on port 1883.
+1535671831: New client connected from 192.168.1.12 as home-assistant-1 (c1, k60).
+1535671831: No will message specified.
+1535671831: Sending CONNACK to home-assistant-1 (0, 0)
+1535671850: Received SUBSCRIBE from home-assistant-1
+1535671850: 	owntracks/# (QoS 1)
+1535671850: home-assistant-1 1 owntracks/#
+1535671850: Sending SUBACK to home-assistant-1
+1535671851: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671851: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671911: Received PINGREQ from home-assistant-1
+1535671911: Sending PINGRESP to home-assistant-1
+1535671971: Received PINGREQ from home-assistant-1
+1535671971: Sending PINGRESP to home-assistant-1
+1535671971: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535671971: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672031: Received PINGREQ from home-assistant-1
+1535672031: Sending PINGRESP to home-assistant-1
+1535672081: Saving in-memory database to /mqtt/data/mosquitto.db.
+1535672081: Error saving in-memory database, unable to open /mqtt/data/mosquitto.db.new for writing.
+1535672081: Error: Permission denied.
+1535672091: Received PINGREQ from home-assistant-1
+1535672091: Sending PINGRESP to home-assistant-1
+1535672091: New connection from 122.228.10.51 on port 1883.
+1535672091: New client connected from 122.228.10.51 as nmapNSJKJLFQRGOLJUAE (c0, k30).
+1535672091: No will message specified.
+1535672091: Sending CONNACK to nmapNSJKJLFQRGOLJUAE (0, 0)
+1535672091: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672091: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672091: Received SUBSCRIBE from nmapNSJKJLFQRGOLJUAE
+1535672091: 	$SYS/# (QoS 0)
+1535672091: nmapNSJKJLFQRGOLJUAE 0 $SYS/#
+1535672091: 	# (QoS 0)
+1535672091: nmapNSJKJLFQRGOLJUAE 0 #
+1535672091: Sending SUBACK to nmapNSJKJLFQRGOLJUAE
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/version', ... (21 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/uptime', ... (12 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/total', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/inactive', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/disconnected', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/active', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/connected', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/expired', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/clients/maximum', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/received/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/received/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/received/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/sent/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/sent/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/messages/sent/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/dropped/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/dropped/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/dropped/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/received/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/received/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/received/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/sent/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/sent/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/publish/sent/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/received/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/received/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/received/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/sent/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/sent/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/bytes/sent/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/sockets/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/sockets/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/sockets/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/connections/1min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/connections/5min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/load/connections/15min', ... (4 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/messages/stored', ... (2 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/messages/received', ... (2 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/messages/sent', ... (2 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/store/messages/count', ... (2 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/store/messages/bytes', ... (3 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/subscriptions/count', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/retained messages/count', ... (2 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/heap/current', ... (5 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/heap/maximum', ... (5 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/publish/messages/dropped', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/publish/messages/received', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/publish/messages/sent', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/publish/bytes/received', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/publish/bytes/sent', ... (1 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/bytes/received', ... (3 bytes))
+1535672091: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r1, m0, '$SYS/broker/bytes/sent', ... (3 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/uptime', ... (12 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/clients/total', ... (1 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/clients/maximum', ... (1 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/clients/active', ... (1 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/clients/connected', ... (1 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/received/1min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/sent/1min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/publish/sent/1min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/received/1min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/sent/1min', ... (7 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/sockets/1min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/connections/1min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/received/5min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/sent/5min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/publish/sent/5min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/received/5min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/sent/5min', ... (6 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/sockets/5min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/connections/5min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/received/15min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/messages/sent/15min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/publish/sent/15min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/received/15min', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/bytes/sent/15min', ... (6 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/sockets/15min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/load/connections/15min', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/store/messages/bytes', ... (3 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/subscriptions/count', ... (1 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/heap/current', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/heap/maximum', ... (5 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/messages/received', ... (2 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/messages/sent', ... (3 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/publish/messages/sent', ... (2 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/bytes/received', ... (3 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/bytes/sent', ... (4 bytes))
+1535672095: Sending PUBLISH to nmapNSJKJLFQRGOLJUAE (d0, q0, r0, m0, '$SYS/broker/publish/bytes/sent', ... (3 bytes))
+1535672096: Socket error on client nmapNSJKJLFQRGOLJUAE, disconnecting.
+1535672151: Received PINGREQ from home-assistant-1
+1535672151: Sending PINGRESP to home-assistant-1
+1535672211: Received PINGREQ from home-assistant-1
+1535672211: Sending PINGRESP to home-assistant-1
+1535672211: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672211: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672271: Received PINGREQ from home-assistant-1
+1535672271: Sending PINGRESP to home-assistant-1
+1535672331: Received PINGREQ from home-assistant-1
+1535672331: Sending PINGRESP to home-assistant-1
+1535672331: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672331: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672391: Received PINGREQ from home-assistant-1
+1535672391: Sending PINGRESP to home-assistant-1
+1535672451: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672451: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672451: Received PINGREQ from home-assistant-1
+1535672451: Sending PINGRESP to home-assistant-1
+1535672512: Received PINGREQ from home-assistant-1
+1535672512: Sending PINGRESP to home-assistant-1
+1535672571: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672571: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672572: Received PINGREQ from home-assistant-1
+1535672572: Sending PINGRESP to home-assistant-1
+1535672632: Received PINGREQ from home-assistant-1
+1535672632: Sending PINGRESP to home-assistant-1
+1535672691: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672691: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672692: Received PINGREQ from home-assistant-1
+1535672692: Sending PINGRESP to home-assistant-1
+1535672752: Received PINGREQ from home-assistant-1
+1535672752: Sending PINGRESP to home-assistant-1
+1535672811: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672811: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672812: Received PINGREQ from home-assistant-1
+1535672812: Sending PINGRESP to home-assistant-1
+1535672872: Received PINGREQ from home-assistant-1
+1535672872: Sending PINGRESP to home-assistant-1
+1535672931: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672931: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535672932: Received PINGREQ from home-assistant-1
+1535672932: Sending PINGRESP to home-assistant-1
+1535672992: Received PINGREQ from home-assistant-1
+1535672992: Sending PINGRESP to home-assistant-1
+1535673051: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673051: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673052: Received PINGREQ from home-assistant-1
+1535673052: Sending PINGRESP to home-assistant-1
+1535673112: Received PINGREQ from home-assistant-1
+1535673112: Sending PINGRESP to home-assistant-1
+1535673171: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673171: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673173: Received PINGREQ from home-assistant-1
+1535673173: Sending PINGRESP to home-assistant-1
+1535673233: Received PINGREQ from home-assistant-1
+1535673233: Sending PINGRESP to home-assistant-1
+1535673291: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673291: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673293: Received PINGREQ from home-assistant-1
+1535673293: Sending PINGRESP to home-assistant-1
+1535673353: Received PINGREQ from home-assistant-1
+1535673353: Sending PINGRESP to home-assistant-1
+1535673411: Received PINGREQ from lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673411: Sending PINGRESP to lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx
+1535673413: Received PINGREQ from home-assistant-1
+1535673413: Sending PINGRESP to home-assistant-1
+1535673415: Socket error on client lens_zXeOwKRXlLsrcyOuKhe92C1A4Xx, disconnecting.

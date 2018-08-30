@@ -54,3 +54,35 @@ androida79e1a42e836f775:
   mac: C0:BD:D1:98:67:3B
   picture: /local/krzysztof_icon.png
   track: true
+
+krzysztofowntracks_krzysztof:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Krzysztof-owntracks
+  picture:
+  track: false
+
+temp_temp:
+  hide_if_away: false
+  icon:
+  mac:
+  name: temp
+  picture:
+  track: false
+
+admin_krzysztof:
+  hide_if_away: false
+  icon:
+  mac:
+  name: admin
+  picture:
+  track: false
+
+krzysztofowntracks_note4:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Krzysztof-owntracks
+  picture:
+  track: true
