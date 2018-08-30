@@ -7,5 +7,3 @@ HA/homeassistant/config/*.*
 !HA/homeassistant/config/known_devices.yaml
 !HA/homeassistant/config/scripts.yaml
 !HA/homeassistant/config/secrets.yaml
-
-HA/mosquitto/config/users.passwd
