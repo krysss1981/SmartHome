@@ -19,8 +19,6 @@ services:
     image: portainer/portainer:latest
     ports:
       - 9000:9000
-    networks:
-      - local
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer-data:/data
@@ -34,12 +32,15 @@ services:
     volumes:
       - ./mosquitto/log/:/mqtt/log/
       - ./mosquitto/data/:/mqtt/data/
-    networks:
-      - local
 
-networks:
-  local:
-    driver: bridge
+  bind9:
+    container_name: bind9
+    build: bind9/build
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      - "10000:10000/tcp"
+    network_mode: "host"
 
 volumes:
   portainer-data:

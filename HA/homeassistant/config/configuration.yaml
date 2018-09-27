@@ -14,18 +14,13 @@ zone:
     radius: 100
     icon: mdi:home
   - name: Krzysztof_work
-    latitude: 52.232071
-    longitude: 20.984099
+    latitude: 52.202624
+    longitude: 20.927712
     radius: 100
     icon: mdi:hospital-building
 
 zwave:
   usb_path: /dev/ttyACM0
-
-device_tracker:
-  - platform: nmap_tracker
-    home_interval: 10
-    hosts: 192.168.1.20-40
 
 mqtt:
   broker: 192.168.1.12
@@ -34,32 +29,35 @@ mqtt:
 
 device_tracker:
   - platform: owntracks
+  - platform: nmap_tracker
+    hosts: 192.168.1.20-25
+    interval_seconds: 120
+    consider_home: 1200
+    home_interval: 120
+    new_device_defaults:
+      track_new_devices: True
+      hide_if_away: True
 
 cloud:
-  alexa:
-    filter:
-      exclude_entities:
-        - climate.danfoss_z_thermostat_014g0013_heating_1_2
-      include_entities:
-        - climate.danfoss_z_thermostat_014g0013_heating_1
-        - media_player.denon_avrx400
-    entity_config:
-      media_player.denon_avrx4000:
-        name: denon
-        description: Denon
-        display_category: SWITCH
-      climate.danfoss_z_thermostat_014g0013_heating_1:
-        name: thermostat
-        description: Thermostat
-        display_category: THERMOSTAT
+
+duckdns:
+  domain: kilowat
+  access_token: a4ddb4ce-5e93-4fb2-8890-6eebbdfef212
+
+sensor:
+  - platform: yr
+  - platform: openweathermap
+    api_key: 7cdab5147826fd658d5d1b272c34dc2f
+    monitored_conditions:
+      - weather
+      - temperature
+
+weather:
+  - platform: openweathermap
+    api_key: 7cdab5147826fd658d5d1b272c34dc2f
 
 
 
-
-
-
-# Show links to resources in log and frontend
-introduction:
 
 # Enables the frontend
 frontend:
@@ -98,16 +96,9 @@ map:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-  - platform: yr
-
 # Text to speech
 tts:
   - platform: google
-
-# Cloud
-cloud:
 
 group: !include groups.yaml
 automation: !include automations.yaml

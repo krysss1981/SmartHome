@@ -1,0 +1,21 @@
+
+devices:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.living_room
+    - group.awesome_people
+living_room:
+  name: Living Room
+  entities:
+    - climate.danfoss_z_thermostat_014g0013_heating_1
+    - climate.danfoss_z_thermostat_014g0013_heating_1_2
+    - sensor.aeotec_zw100_multisensor_6_temperature
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity
+    - sensor.aeotec_zw100_multisensor_6_luminance
+    - binary_sensor.aeotec_zw100_multisensor_6_sensor
+awesome_people:
+  name: Awesome People
+  entities:
+    - device_tracker.androida79e1a42e836f775
+    - device_tracker.androidf01e56250057d92d
