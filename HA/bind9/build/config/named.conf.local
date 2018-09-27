@@ -1,0 +1,4 @@
+zone "kilowat.duckdns.org" {
+type master;
+file "/etc/bind/kilowatduckdns.db";
+};
